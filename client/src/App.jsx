@@ -1,7 +1,10 @@
 import "./App.css";
+import Header from "./components/header/Header";
 
 function App() {
-    return <h1>Task Manager App</h1>;
+    return (
+        <Header />
+    );
 }
 
 export default App;
